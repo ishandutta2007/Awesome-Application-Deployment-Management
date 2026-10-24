@@ -1,0 +1,170 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="100%" height="auto">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0f1d"/>
+      <stop offset="50%" stop-color="#0d1b2a"/>
+      <stop offset="100%" stop-color="#1b263b"/>
+    </linearGradient>
+
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#60a5fa"/>
+      <stop offset="50%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#a855f7"/>
+    </linearGradient>
+
+    <linearGradient id="subGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#4ade80"/>
+    </linearGradient>
+
+    <linearGradient id="orbGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3b82f6" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0"/>
+    </linearGradient>
+
+    <linearGradient id="orbGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06b6d4" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#10b981" stop-opacity="0"/>
+    </linearGradient>
+
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#334155" stroke-width="0.8" stroke-opacity="0.3"/>
+      <circle cx="40" cy="40" r="1" fill="#38bdf8" fill-opacity="0.25"/>
+    </pattern>
+
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <style>
+      .pulse-orb1 {
+        animation: pulse1 7s ease-in-out infinite alternate;
+      }
+      .pulse-orb2 {
+        animation: pulse2 9s ease-in-out infinite alternate;
+      }
+      .dash-flow {
+        stroke-dasharray: 8 12;
+        animation: flow 20s linear infinite;
+      }
+      .dash-flow-rev {
+        stroke-dasharray: 6 10;
+        animation: flowRev 16s linear infinite;
+      }
+      .node-pulse {
+        animation: nodeGlow 3s ease-in-out infinite alternate;
+      }
+      .card-float1 {
+        animation: floatA 6s ease-in-out infinite alternate;
+      }
+      .card-float2 {
+        animation: floatB 7s ease-in-out infinite alternate;
+      }
+      @keyframes flow {
+        from { stroke-dashoffset: 0; }
+        to { stroke-dashoffset: -400; }
+      }
+      @keyframes flowRev {
+        from { stroke-dashoffset: 0; }
+        to { stroke-dashoffset: 350; }
+      }
+      @keyframes pulse1 {
+        0% { transform: scale(1) translate(0, 0); opacity: 0.6; }
+        100% { transform: scale(1.15) translate(-20px, 15px); opacity: 0.9; }
+      }
+      @keyframes pulse2 {
+        0% { transform: scale(1) translate(0, 0); opacity: 0.5; }
+        100% { transform: scale(1.2) translate(25px, -15px); opacity: 0.85; }
+      }
+      @keyframes floatA {
+        0% { transform: translateY(0px); }
+        100% { transform: translateY(-8px); }
+      }
+      @keyframes floatB {
+        0% { transform: translateY(0px); }
+        100% { transform: translateY(8px); }
+      }
+      @keyframes nodeGlow {
+        0% { filter: drop-shadow(0 0 2px rgba(56, 189, 248, 0.4)); }
+        100% { filter: drop-shadow(0 0 10px rgba(56, 189, 248, 0.9)); }
+      }
+    </style>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="1200" height="420" fill="url(#bgGrad)" rx="16"/>
+
+  <!-- Grid Layer -->
+  <rect width="1200" height="420" fill="url(#grid)" rx="16"/>
+
+  <!-- Background Animated Glowing Orbs (Strictly in Background) -->
+  <circle cx="200" cy="100" r="220" fill="url(#orbGrad1)" class="pulse-orb1" filter="url(#glow)"/>
+  <circle cx="1020" cy="300" r="260" fill="url(#orbGrad2)" class="pulse-orb2" filter="url(#glow)"/>
+
+  <!-- Flow Network Connecting Lines (Dynamic Background) -->
+  <g opacity="0.35">
+    <path d="M 60 70 Q 300 20 600 70 T 1140 70" fill="none" stroke="#38bdf8" stroke-width="2" class="dash-flow"/>
+    <path d="M 60 360 Q 350 400 600 355 T 1140 360" fill="none" stroke="#a855f7" stroke-width="2" class="dash-flow-rev"/>
+    <path d="M 120 70 L 180 340 M 1080 70 L 1020 340 M 350 360 L 400 390 M 850 360 L 800 390" fill="none" stroke="#64748b" stroke-width="1.2" stroke-dasharray="4 6"/>
+  </g>
+
+  <!-- Floating Dynamic Tech Pills / Architecture Elements (Flanking, not covering text) -->
+  <g class="card-float1" opacity="0.85">
+    <rect x="70" y="295" width="170" height="40" rx="20" fill="#1e293b" stroke="#38bdf8" stroke-width="1.2"/>
+    <circle cx="95" cy="315" r="6" fill="#38bdf8" class="node-pulse"/>
+    <text x="115" y="321" fill="#f1f5f9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600">Unified Endpoint</text>
+  </g>
+
+  <g class="card-float2" opacity="0.85">
+    <rect x="960" y="295" width="170" height="40" rx="20" fill="#1e293b" stroke="#a855f7" stroke-width="1.2"/>
+    <circle cx="985" cy="315" r="6" fill="#a855f7" class="node-pulse"/>
+    <text x="1005" y="321" fill="#f1f5f9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600">Self-Hosted RMM</text>
+  </g>
+
+  <g class="card-float2" opacity="0.75">
+    <rect x="70" y="115" width="150" height="34" rx="17" fill="#1e293b" stroke="#10b981" stroke-width="1.2"/>
+    <circle cx="90" cy="132" r="5" fill="#10b981"/>
+    <text x="106" y="137" fill="#f1f5f9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600">Zero Trust MDM</text>
+  </g>
+
+  <g class="card-float1" opacity="0.75">
+    <rect x="980" y="115" width="150" height="34" rx="17" fill="#1e293b" stroke="#f59e0b" stroke-width="1.2"/>
+    <circle cx="1000" cy="132" r="5" fill="#f59e0b"/>
+    <text x="1016" y="137" fill="#f1f5f9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600">Patch Pipeline</text>
+  </g>
+
+  <!-- FOREGROUND: High-Contrast Pristine Branding & Typography -->
+  <g id="brand-foreground">
+    <!-- Top Category Tag -->
+    <rect x="420" y="55" width="360" height="32" rx="16" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+    <text x="600" y="76" text-anchor="middle" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" letter-spacing="2">APPLICATION DEPLOYMENT &amp; MANAGEMENT</text>
+
+    <!-- Main Title -->
+    <text x="600" y="160" text-anchor="middle" fill="url(#textGrad)" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif" font-size="44" font-weight="800" letter-spacing="-0.5" filter="url(#glow)">Awesome Deployment &amp; Management</text>
+
+    <!-- Subtitle -->
+    <text x="600" y="210" text-anchor="middle" fill="url(#subGrad)" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="20" font-weight="600">Enterprise UEM, MDM, RMM &amp; Infrastructure Orchestration</text>
+
+    <!-- Description Tagline -->
+    <text x="600" y="250" text-anchor="middle" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="400">Curated ecosystem of elite SaaS suites &amp; self-hosted open-source platforms</text>
+
+    <!-- Feature Nodes Bar (Bottom Center) -->
+    <g transform="translate(325, 305)">
+      <rect x="0" y="0" width="125" height="30" rx="8" fill="#111827" stroke="#374151" stroke-width="1"/>
+      <text x="62" y="19" text-anchor="middle" fill="#e2e8f0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="500">💻 Windows / Mac</text>
+
+      <rect x="140" y="0" width="125" height="30" rx="8" fill="#111827" stroke="#374151" stroke-width="1"/>
+      <text x="202" y="19" text-anchor="middle" fill="#e2e8f0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="500">🐧 Linux Fleet</text>
+
+      <rect x="280" y="0" width="125" height="30" rx="8" fill="#111827" stroke="#374151" stroke-width="1"/>
+      <text x="342" y="19" text-anchor="middle" fill="#e2e8f0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="500">📱 Mobile MDM</text>
+
+      <rect x="420" y="0" width="130" height="30" rx="8" fill="#111827" stroke="#374151" stroke-width="1"/>
+      <text x="485" y="19" text-anchor="middle" fill="#e2e8f0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="500">⚡ Open Source</text>
+    </g>
+  </g>
+</svg>
