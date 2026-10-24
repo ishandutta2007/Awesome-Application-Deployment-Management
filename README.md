@@ -12,7 +12,7 @@
 
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Application-Deployment-Management/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Application-Deployment-Management?style=for-the-badge&color=gold" alt="GitHub Stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Application-Deployment-Management/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Application-Deployment-Management?style=for-the-badge&color=gold" alt="GitHub_Stars"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Application-Deployment-Management/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Application-Deployment-Management?style=for-the-badge&color=blue" alt="GitHub Forks"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Application-Deployment-Management/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge" alt="License"/></a>
   <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
@@ -80,48 +80,48 @@ The global Unified Endpoint Management (UEM) and software deployment automation 
 
 ## ⚡ Open-Source GitHub Projects
 
-> Community-driven, self-hosted, and transparent infrastructure tools. Sorted by **GitHub Star Count** (descending). Badges link directly to stargazer communities.
+> Community-driven, self-hosted, and transparent infrastructure tools. Sorted by **GitHub Stars_Count** (descending). Badges link directly to stargazer communities.
 
-- **[Ansible](https://github.com/ansible/ansible)** [![GitHub Stars](https://img.shields.io/github/stars/ansible/ansible?style=social&color=white)](https://github.com/ansible/ansible/stargazers)  
+- **[Ansible](https://github.com/ansible/ansible)** [![GitHub_Stars](https://img.shields.io/github/stars/ansible/ansible?style=social&color=white)](https://github.com/ansible/ansible/stargazers)  
   🤖 **Agentless Configuration Management & Application Deployment Engine.** Simple, agentless automation framework utilizing YAML playbooks to configure bare-metal, virtualized, and cloud systems across Linux, Windows, and network infrastructure.
 
-- **[Salt](https://github.com/saltstack/salt)** [![GitHub Stars](https://img.shields.io/github/stars/saltstack/salt?style=social&color=white)](https://github.com/saltstack/salt/stargazers)  
+- **[Salt](https://github.com/saltstack/salt)** [![GitHub_Stars](https://img.shields.io/github/stars/saltstack/salt?style=social&color=white)](https://github.com/saltstack/salt/stargazers)  
   ⚡ **High-Speed Event-Driven Orchestration & Remote Execution.** Scalable Python-based systems management engine with asynchronous messaging for near-instant execution and state configuration across massive enterprise server environments.
 
-- **[Chef](https://github.com/chef/chef)** [![GitHub Stars](https://img.shields.io/github/stars/chef/chef?style=social&color=white)](https://github.com/chef/chef/stargazers)  
+- **[Chef](https://github.com/chef/chef)** [![GitHub_Stars](https://img.shields.io/github/stars/chef/chef?style=social&color=white)](https://github.com/chef/chef/stargazers)  
   👨‍🍳 **Infrastructure-as-Code Automation & Policy Management.** Powerful Ruby-based DSL and recipe engine that turns infrastructure into code to achieve consistent, repeatable application delivery and compliance.
 
-- **[Puppet](https://github.com/puppetlabs/puppet)** [![GitHub Stars](https://img.shields.io/github/stars/puppetlabs/puppet?style=social&color=white)](https://github.com/puppetlabs/puppet/stargazers)  
+- **[Puppet](https://github.com/puppetlabs/puppet)** [![GitHub_Stars](https://img.shields.io/github/stars/puppetlabs/puppet?style=social&color=white)](https://github.com/puppetlabs/puppet/stargazers)  
   🎭 **Declarative Configuration Management & State Enforcement.** Established declarative manifest automation system designed for enforcing consistent system configuration states, continuous drift control, and enterprise compliance.
 
-- **[MeshCentral](https://github.com/Ylianst/MeshCentral)** [![GitHub Stars](https://img.shields.io/github/stars/Ylianst/MeshCentral?style=social&color=white)](https://github.com/Ylianst/MeshCentral/stargazers)  
+- **[MeshCentral](https://github.com/Ylianst/MeshCentral)** [![GitHub_Stars](https://img.shields.io/github/stars/Ylianst/MeshCentral?style=social&color=white)](https://github.com/Ylianst/MeshCentral/stargazers)  
   🕸️ **Self-Hosted Web-Based Remote Computer & Device Management Platform.** Complete remote management web application with agent-based control, file transfer, remote terminal access, Intel AMT hardware-level KVM management, and multi-tenant grouping.
 
-- **[Fleet](https://github.com/fleetdm/fleet)** [![GitHub Stars](https://img.shields.io/github/stars/fleetdm/fleet?style=social&color=white)](https://github.com/fleetdm/fleet/stargazers)  
+- **[Fleet](https://github.com/fleetdm/fleet)** [![GitHub_Stars](https://img.shields.io/github/stars/fleetdm/fleet?style=social&color=white)](https://github.com/fleetdm/fleet/stargazers)  
   🔍 **Open-Source osquery Fleet Management & Programmable MDM.** Comprehensive device management and security platform built upon osquery, delivering real-time telemetry, automated compliance checking, and zero-trust policy enforcement across macOS, Windows, and Linux.
 
-- **[Tactical RMM](https://github.com/amidaware/tacticalrmm)** [![GitHub Stars](https://img.shields.io/github/stars/amidaware/tacticalrmm?style=social&color=white)](https://github.com/amidaware/tacticalrmm/stargazers)  
+- **[Tactical RMM](https://github.com/amidaware/tacticalrmm)** [![GitHub_Stars](https://img.shields.io/github/stars/amidaware/tacticalrmm?style=social&color=white)](https://github.com/amidaware/tacticalrmm/stargazers)  
   🎯 **Self-Hosted Remote Monitoring & Software Deployment Platform.** Full-featured open-source RMM built with Django, Vue, and Go. Features agent-based endpoint management, automated Windows patch deployment, script execution, alert automation, and remote desktop access without per-device SaaS fees.
 
-- **[Munki](https://github.com/munki/munki)** [![GitHub Stars](https://img.shields.io/github/stars/munki/munki?style=social&color=white)](https://github.com/munki/munki/stargazers)  
+- **[Munki](https://github.com/munki/munki)** [![GitHub_Stars](https://img.shields.io/github/stars/munki/munki?style=social&color=white)](https://github.com/munki/munki/stargazers)  
   🐵 **Web-Server Driven Software Installation & Packaging for macOS.** Robust client-server toolset allowing macOS administrators to manage software installations, updates, and removals using standard web server protocols and native Apple packages.
 
-- **[Foreman](https://github.com/theforeman/foreman)** [![GitHub Stars](https://img.shields.io/github/stars/theforeman/foreman?style=social&color=white)](https://github.com/theforeman/foreman/stargazers)  
+- **[Foreman](https://github.com/theforeman/foreman)** [![GitHub_Stars](https://img.shields.io/github/stars/theforeman/foreman?style=social&color=white)](https://github.com/theforeman/foreman/stargazers)  
   🏗️ **Complete Lifecycle Management for Physical & Virtual Servers.** Bare-metal provisioning, configuration orchestration (integrating Ansible, Puppet, and Salt), and patch management engine across enterprise hybrid-cloud Linux ecosystems.
 
-- **[MicroMDM](https://github.com/micromdm/micromdm)** [![GitHub Stars](https://img.shields.io/github/stars/micromdm/micromdm?style=social&color=white)](https://github.com/micromdm/micromdm/stargazers)  
+- **[MicroMDM](https://github.com/micromdm/micromdm)** [![GitHub_Stars](https://img.shields.io/github/stars/micromdm/micromdm?style=social&color=white)](https://github.com/micromdm/micromdm/stargazers)  
   📱 **Modular Apple Mobile Device Management Protocol Server.** Minimalist, composable Go-based MDM protocol implementation providing native Apple MDM command processing, device enrollment, and configuration profile management for macOS and iOS.
 
-- **[FOG Project](https://github.com/FOGProject/fogproject)** [![GitHub Stars](https://img.shields.io/github/stars/FOGProject/fogproject?style=social&color=white)](https://github.com/FOGProject/fogproject/stargazers)  
+- **[FOG Project](https://github.com/FOGProject/fogproject)** [![GitHub_Stars](https://img.shields.io/github/stars/FOGProject/fogproject?style=social&color=white)](https://github.com/FOGProject/fogproject/stargazers)  
   💿 **Open-Source Network Computer Cloning & PXE Deployment.** Free and open-source network boot and imaging server facilitating PXE boot, automated disk cloning, snap-in software deployments, and printer management across Windows and Linux fleets.
 
-- **[AutoPkg](https://github.com/autopkg/autopkg)** [![GitHub Stars](https://img.shields.io/github/stars/autopkg/autopkg?style=social&color=white)](https://github.com/autopkg/autopkg/stargazers)  
+- **[AutoPkg](https://github.com/autopkg/autopkg)** [![GitHub_Stars](https://img.shields.io/github/stars/autopkg/autopkg?style=social&color=white)](https://github.com/autopkg/autopkg/stargazers)  
   📦 **Automated Packaging and Software Distribution Framework for macOS.** Python-based recipe framework automating the download, preparation, and packaging of macOS software releases for distribution into Munki, Jamf Pro, and other systems.
 
-- **[Nudge](https://github.com/macadmins/nudge)** [![GitHub Stars](https://img.shields.io/github/stars/macadmins/nudge?style=social&color=white)](https://github.com/macadmins/nudge/stargazers)  
+- **[Nudge](https://github.com/macadmins/nudge)** [![GitHub_Stars](https://img.shields.io/github/stars/macadmins/nudge?style=social&color=white)](https://github.com/macadmins/nudge/stargazers)  
   🔔 **Enforce macOS System Updates via Gentle User Notifications.** Native Swift-built tool enabling administrators to prompt and encourage users to install macOS software updates prior to enforcement deadlines.
 
-- **[Rudder](https://github.com/Normation/rudder)** [![GitHub Stars](https://img.shields.io/github/stars/Normation/rudder?style=social&color=white)](https://github.com/Normation/rudder/stargazers)  
+- **[Rudder](https://github.com/Normation/rudder)** [![GitHub_Stars](https://img.shields.io/github/stars/Normation/rudder?style=social&color=white)](https://github.com/Normation/rudder/stargazers)  
   📋 **Continuous Configuration Management & Regulatory Compliance System.** Real-time configuration management solution ensuring servers remain continuously compliant over time, featuring audit trails, drift detection, and automated policy remediation.
 
 ---
