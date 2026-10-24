@@ -80,7 +80,7 @@ The global Unified Endpoint Management (UEM) and software deployment automation 
 
 ## ⚡ Open-Source GitHub Projects
 
-> Community-driven, self-hosted, and transparent infrastructure tools. Sorted by **GitHub Stars_Count** (descending). Badges link directly to stargazer communities.
+> Community-driven, self-hosted, and transparent infrastructure tools. Sorted by **GitHub_Stars_Count** (descending). Badges link directly to stargazer communities.
 
 - **[Ansible](https://github.com/ansible/ansible)** [![GitHub_Stars](https://img.shields.io/github/stars/ansible/ansible?style=social&color=white)](https://github.com/ansible/ansible/stargazers)  
   🤖 **Agentless Configuration Management & Application Deployment Engine.** Simple, agentless automation framework utilizing YAML playbooks to configure bare-metal, virtualized, and cloud systems across Linux, Windows, and network infrastructure.
